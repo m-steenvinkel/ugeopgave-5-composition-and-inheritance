@@ -10,10 +10,7 @@ public abstract class Animal {
     }
 
     public boolean isActive() {
-        if (energy < 0) {
-            return true;
-        }
-        return false;
+        return energy < 0;
     }
 
     public abstract int attack();

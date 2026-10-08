@@ -16,6 +16,7 @@ public class Main {
         Contest contest2 = new Contest(animals.get(2), animals.get(3));
 
         contest1.playRound();
+        System.out.println();
         contest2.playRound();
     }
 }

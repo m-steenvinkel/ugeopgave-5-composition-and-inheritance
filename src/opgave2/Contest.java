@@ -26,9 +26,9 @@ public class Contest {
     }
 
     public Animal getWinner() {
-        if (animal1.getEnergy() <= 0) {
+        if (animal1.isActive()) {
             return animal2;
-        } else if (animal2.getEnergy() <= 0) {
+        } else if (animal2.isActive()) {
             return animal1;
         } else {
             return null;

@@ -22,19 +22,11 @@ public class Room {
     }
 
     public int getLampCount() {
-        int count = 0;
-        for (Lamp lamp : lamps) {
-            count++;
-        }
-        return count;
+        return lamps.size();
     }
 
     public int getWindowCount() {
-        int count = 0;
-        for (Window window : windows) {
-            count++;
-        }
-        return count;
+        return windows.size();
     }
 
     public int getTotalWatt() {
